@@ -1,9 +1,9 @@
-// \l /Users/dhanuushri/q/script/tradeData.q
+// load data
 // Number of rows to generate
 n:1000
 
 
-// Generate random time between 9:15 AM and 3:30 PM
+// Generate random time between 9:15 AM and 3:30 PM - trading time
 start_time: 09:15:00t
 end_time: 15:30:00t
 rand_time: start_time + (n?((end_time - start_time) * 1j))
