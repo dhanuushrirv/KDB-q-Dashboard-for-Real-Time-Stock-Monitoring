@@ -1,6 +1,7 @@
 //load the trade data and perform statistical arbitrage calculation
 
-\l /Users/dhanuushri/q/script/KDB-q-Dashboard-for-Real-Time-Stock-Monitoring/KDB-q-Dashboard-for-Real-Time-Stock-Monitoring/tradeData.q
+\l /tradeData.q
+
 
 //Statistical arbitrage
 //  -> (pair trading strategies) using the stock_data table, the idea is to identify pairs of correlated symbols and then trade based on their spread. 
